@@ -14,20 +14,17 @@ Build an offline web application that allows users to interact with Llama3, a co
 
 ## Implementation Steps
 
-1.	Set Up Ollama Locally:
-- Install and configure Ollama.
-- Download the required Llama3 model.
-2.	Backend Server:
+1.	Backend Server:
 - Create an Express server.
 - Define routes for interacting with the Ollama API and managing chat logs.
 - Connect to MongoDB for storing chat logs.
-3.	Frontend Application:
+2.	Frontend Application:
 - Set up a React project.
 - Build components for the chat interface.
 - Implement API calls to the backend.
-4.	Integration:
+3.	Integration:
 - Ensure the frontend can communicate with the backend.
 - Verify that the backend properly interacts with Ollama’s local API and the MongoDB database.
-5.	Deployment (Optional for CV):
+4.	Deployment (Optional for CV):
 - Host the backend server and database (if showcasing online).
 - Deploy the React application using services like Netlify or Vercel.
