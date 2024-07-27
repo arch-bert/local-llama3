@@ -28,3 +28,53 @@ Build an offline web application that allows users to interact with Llama3, a co
 4.	Deployment (Optional for CV):
 - Host the backend server and database (if showcasing online).
 - Deploy the React application using services like Netlify or Vercel.
+
+## Possible directory tree
+
+```bash
+local-llama3/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   │   └── chatController.ts
+│   │   ├── models/
+│   │   │   └── chatLog.ts
+│   │   ├── routes/
+│   │   │   ├── chatRoutes.ts
+│   │   │   └── apiRoutes.ts
+│   │   ├── services/
+│   │   │   └── ollamaService.ts
+│   │   ├── utils/
+│   │   │   └── db.ts
+│   │   ├── app.ts
+│   │   └── server.ts
+│   ├── .env
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── README.md
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ChatInput.tsx
+│   │   │   ├── ChatLog.tsx
+│   │   │   └── ChatMessage.tsx
+│   │   ├── pages/
+│   │   │   └── ChatPage.tsx
+│   │   ├── services/
+│   │   │   └── api.ts
+│   │   ├── App.tsx
+│   │   ├── index.tsx
+│   │   ├── styles/
+│   │   │   └── App.css
+│   │   └── utils/
+│   │       └── constants.ts
+│   ├── .env
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── README.md
+├── .gitignore
+└── README.md
+```
