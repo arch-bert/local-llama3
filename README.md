@@ -15,7 +15,7 @@ Build an offline web application that allows users to interact with Llama3, a co
 ## Implementation Steps
 
 1.	Backend Server:
-- Create an Express server.
+- Create an Express server using TypeScript
 - Define routes for interacting with the Ollama API and managing chat logs.
 - Connect to MongoDB for storing chat logs.
 2.	Frontend Application:
